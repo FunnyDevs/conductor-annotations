@@ -1,4 +1,4 @@
-package com.funnydevs.conductor_lifecycle.conductor_annotations
+package com.funnydevs.conductor_lifecycle.conductor_annotations_demo
 
 import org.junit.Test
 

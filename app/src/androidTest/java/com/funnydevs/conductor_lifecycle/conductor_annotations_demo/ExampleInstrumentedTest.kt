@@ -1,4 +1,4 @@
-package com.funnydevs.conductor_lifecycle.conductor_annotations
+package com.funnydevs.conductor_lifecycle.conductor_annotations_demo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.funnydevs.conductor_lifecycle.conductor_annotations", appContext.packageName)
+        assertEquals("com.funnydevs.conductor_lifecycle.conductor_annotations_demo", appContext.packageName)
     }
 }
